@@ -39,10 +39,10 @@ function SearchPage() {
       try {
         const response = await fetch(
           "http://www.omdbapi.com/?apikey=25fdf932&s=all"
-        ); // Adjust the API endpoint to fetch all movies
+        ); //  fetch all movies
         const data = await response.json();
         if (data.Response === "True") {
-          setMovies(data.Search || []); // Assuming data.Search is an array of movies
+          setMovies(data.Search || []); //  data.Search is an array of movies
         } else {
           setMovies([]); // Reset movies if no results found
           console.error("No results found");
@@ -81,7 +81,6 @@ function SearchPage() {
               imageUrl={movie.Poster}
               description={movie.Plot}
               id={movie.imdbID}
-              //isActive={/* Determine if this card is active */}
             />
           ))
         ) : (
