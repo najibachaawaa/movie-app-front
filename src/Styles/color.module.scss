@@ -1,0 +1,65 @@
+$primary: #290180;
+$primary-darker: #1a0150;
+$primary-lighter: #9e71fe;
+$primary-light: #dcccfe;
+$warning: #ff9900;
+$link: #004AB9;
+$link-light: #BDD8FF;
+$info: #2f80ed;
+$success: #27ae60;
+$danger: #eb5757;
+
+$secondary-darker: #005a5e;
+$secondary-lighter: #99f3f7;
+$secondary-light: #e6fcfd;
+
+$pink: #46a418;
+$pink-darker: #850060;
+$pink-lighter: #ff30c5;
+$pink-light: #ffd6f3;
+
+$black: #000000;
+$grey-darker: #121212;
+$grey-light: #a8a8a7;
+$grey-dark: #575758;
+
+$white: #ffffff;
+$white-lighter: #f5f5f5;
+$white-light: #d3d3d3;
+
+$green: #46a418;
+$green-darker: #2b6e0a;
+$green-lighter: #81e54f;
+$green-light: #ccf5b9;
+
+$opacity-medium: 0.25;
+$opacity-light: 0.06;
+
+:export {
+    primary: $primary;
+    primaryDark: $primary-darker;
+    primaryLighter: $primary-lighter;
+    primarylight: $primary-light;
+    warning: $warning;
+    link: $link;
+    link-light: $link-light;
+    info: $info;
+    success: $success;
+    danger: $danger;
+    greyLight: $grey-light;
+    greyDark: $grey-dark;
+    greyDarker: $grey-darker;
+    secondaryDarker: $secondary-darker;
+    secondaryLighter: $secondary-lighter;
+    secondarylight: $secondary-light;
+    black: $black;
+    white: $white;
+    whiteLighter: $white-lighter;
+    whiteLight: $white-light;
+    green: $green;
+    greenDarker: $green-darker;
+    greenLighter: $green-lighter;
+    greenlight: $green-light;
+    opacityMedium: $opacity-medium;
+    opacityLight: $opacity-light;
+}

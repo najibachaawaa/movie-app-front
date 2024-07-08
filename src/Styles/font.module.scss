@@ -1,0 +1,10 @@
+@import '../Fonts/font-roboto';
+@import '../Fonts/font-dmsans';
+
+$family-primary: Roboto;
+$family-secondary: DM Sans;
+
+:export {
+    familyPrimary: $family-primary;
+    familySecondary: $family-secondary;
+}

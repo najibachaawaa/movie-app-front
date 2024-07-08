@@ -1,0 +1,37 @@
+@use 'color.module';
+@use 'size.module';
+@use 'font.module';
+@use 'screen.module';
+
+@use "bulma/sass" with (
+    $primary: color.$primary,
+    $warning: color.$warning,
+    $link: color.$link,
+    $info: color.$info,
+    $success: color.$success,
+    $danger: color.$danger,
+    $grey-light: color.$grey-light,
+    $grey-dark: color.$grey-dark,
+    $grey-darker: color.$grey-darker,
+
+    $family-primary: font.$family-primary,
+    $family-secondary: font.$family-secondary,
+
+    $size-1: size.$size-1,
+    $size-2: size.$size-2,
+    $size-3: size.$size-3,
+    $size-4: size.$size-4,
+    $size-5: size.$size-5,
+    $size-6: size.$size-6,
+
+
+    $table-color: color.$grey-dark,
+
+    $gap: screen.$gap,
+    $fullhd: screen.$fullhd,
+    $desktop: screen.$desktop,
+    $tablet: screen.$tablet,
+);
+
+@import 'typo';
+@import 'bulma/bulma.scss';

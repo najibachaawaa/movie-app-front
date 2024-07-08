@@ -1,0 +1,171 @@
+.bold {
+    font-weight: 700;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-family-secondary);
+}
+
+h1,
+.header-1 {
+    font-family: var(--font-family-secondary);
+    font-size: var(--size-1) !important;
+    font-weight: 700 !important;
+}
+
+@media screen and (max-width: var(--mobile)) {
+    h1,
+    .header-1 {
+        font-size: var(--mobile-size-1) !important;
+    }
+}
+
+h2,
+.header-2 {
+    font-family: var(--font-family-secondary);
+    font-size: var(--size-2) !important;
+    font-weight: 700 !important;
+}
+
+@media screen and (max-width: var(--mobile)) {
+    h2,
+    .header-2 {
+        font-size: var(--mobile-size-2) !important;
+    }
+}
+
+h3,
+.header-3 {
+    font-family: var(--font-family-secondary);
+    font-size: var(--size-3) !important;
+    font-weight: 500 !important;
+}
+
+@media screen and (max-width: var(--mobile)) {
+    h3,
+    .header-3 {
+        font-size: var(--mobile-size-3) !important;
+    }
+}
+
+h4,
+.header-4 {
+    font-family: var(--font-family-secondary);
+    font-size: var(--size-4) !important;
+    font-weight: 700 !important;
+}
+
+@media screen and (max-width: var(--mobile)) {
+    h4,
+    .header-4 {
+        font-size: var(--mobile-size-4) !important;
+    }
+}
+
+h5,
+.header-5 {
+    font-family: var(--font-family-secondary);
+    font-size: var(--size-5) !important;
+    font-weight: 500 !important;
+}
+
+@media screen and (max-width: var(--mobile)) {
+    h5,
+    .header-5 {
+        font-size: var(--mobile-size-5) !important;
+    }
+}
+
+h6,
+.header-6 {
+    font-family: var(--font-family-secondary);
+    font-size: var(--size-6) !important;
+}
+
+@media screen and (max-width: var(--mobile)) {
+    h6,
+    .header-6 {
+        font-size: var(--mobile-size-5) !important;
+    }
+}
+
+.body-text-1 {
+    font-size: var(--size-4);
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.body-text-2 {
+    font-size: var(--size-5);
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.body-text-3 {
+    font-size: var(--size-6);
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.body-text-4 {
+    font-size: var(--size-7);
+    font-weight: 400;
+    line-height: 14px;
+}
+
+.body-text-5 {
+    font-size: var(--mobile-size-6);
+    font-style: italic;
+    font-weight: 400;
+    line-height: 14px;
+}
+
+.large-underline-label {
+    font-family: var(--font-family-primary);
+    font-size: var(--size-6);
+    font-weight: 600;
+    line-height: 22.4px;
+    text-decoration: underline;
+}
+
+.normal-underline-label {
+    font-family: var(--font-family-primary);
+    font-size: var(--size-7);
+    font-weight: 500;
+    line-height: 19.6px;
+    text-decoration: underline;
+}
+
+.small-underline-label {
+    font-family: var(--font-family-primary);
+    font-size: var(--mobile-size-6);
+    font-weight: 400;
+    line-height: 19.6px;
+    text-decoration: underline;
+}
+
+.large-label {
+    font-family: var(--font-family-primary);
+    font-size: var(--size-6);
+    font-weight: 600;
+    line-height: 22px;
+}
+
+.normal-label {
+    font-family: var(--font-family-primary);
+    font-size: var(--size-7);
+    font-weight: 500;
+    line-height: 19.6px;
+}
+
+.small-label {
+    font-family: var(--font-family-primary);
+    font-size: var(--mobile-size-6);
+    font-weight: 400;
+    line-height: 16.8px;
+}

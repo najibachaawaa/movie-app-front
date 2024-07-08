@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import React from 'react';
+
+import SearchPage from './pages/SearchPage';
+import DetailPage from './pages/DetailPage';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import {CustomThemeProvider} from "./Contexts/CustomThemeProvider";
+
+
+
+const App = () => {
+   
+            return (
+                <CustomThemeProvider>
+                <Router>
+                    <Routes>
+                        <Route path="/" element={<SearchPage />} />
+                        <Route path="/id" element={<DetailPage />} />
+                    </Routes>
+                </Router>
+                </CustomThemeProvider>
+            );
+        }
+        
+  
+ 
+
 
 export default App;
