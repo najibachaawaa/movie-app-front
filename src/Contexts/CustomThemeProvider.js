@@ -1,6 +1,5 @@
 // src/Contexts/CustomThemeProvider.js
 import { ThemeProvider } from 'styled-components';
-//import '../Styles/bulma_config.scss';
 import colors from '../Styles/color.module.scss';
 import sizes from '../Styles/size.module.scss';
 import screens from '../Styles/screen.module.scss';

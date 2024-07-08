@@ -15,7 +15,7 @@ const App = () => {
                 <Router>
                     <Routes>
                         <Route path="/" element={<SearchPage />} />
-                        <Route path="/id" element={<DetailPage />} />
+                        <Route path="/movie/:id" element={<DetailPage />} />
                     </Routes>
                 </Router>
                 </CustomThemeProvider>
